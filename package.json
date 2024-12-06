@@ -1,0 +1,25 @@
+{
+  "name": "example-with-auth",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.15.0",
+    "@solidjs/start": "^1.0.10",
+    "solid-js": "^1.9.2",
+    "unstorage": "1.10.2",
+    "vinxi": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
